@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">AL_USDMaya
-   &#160;<span id="projectnumber">0.27.3</span>
+   &#160;<span id="projectnumber">0.27.4</span>
    </div>
    <div id="projectbrief">USD to Maya Bridge</div>
   </td>
@@ -143,7 +143,7 @@ $(document).ready(function(){initNavTree('NodeFactory_8h_source.html','');});
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  <a class="code" href="structAL_1_1usdmaya_1_1fileio_1_1NodeFactory.html#a988e711198575ea20b409c7599b73993">~NodeFactory</a>();</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  MObject <a class="code" href="structAL_1_1usdmaya_1_1fileio_1_1NodeFactory.html#a92c9198a197bfc18f80cb96aac7c22c1">createNode</a>(<span class="keyword">const</span> UsdPrim&amp; from, <span class="keyword">const</span> <span class="keywordtype">char</span>* <span class="keyword">const</span> nodeType, MObject parent);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  MObject <a class="code" href="structAL_1_1usdmaya_1_1fileio_1_1NodeFactory.html#afa3454504cf325e55ff22e518e1b0afd">createNode</a>(<span class="keyword">const</span> UsdPrim&amp; from, <span class="keyword">const</span> <span class="keywordtype">char</span>* <span class="keyword">const</span> nodeType, MObject parent, <span class="keywordtype">bool</span> parentUnmerged = <span class="keyword">false</span>);</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
 <div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="structAL_1_1usdmaya_1_1fileio_1_1NodeFactory.html#aa4aa1dd2c82cb10e3deec768e8b5c3db">   51</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="structAL_1_1usdmaya_1_1fileio_1_1NodeFactory.html#aa4aa1dd2c82cb10e3deec768e8b5c3db">setImportParams</a>(<span class="keyword">const</span> <a class="code" href="structAL_1_1usdmaya_1_1fileio_1_1ImporterParams.html">ImporterParams</a>* params)</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    { m_params = params; }</div>
@@ -168,8 +168,8 @@ $(document).ready(function(){initNavTree('NodeFactory_8h_source.html','');});
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="comment">//----------------------------------------------------------------------------------------------------------------------</span></div>
 <div class="ttc" id="structAL_1_1usdmaya_1_1fileio_1_1NodeFactory_html_a988e711198575ea20b409c7599b73993"><div class="ttname"><a href="structAL_1_1usdmaya_1_1fileio_1_1NodeFactory.html#a988e711198575ea20b409c7599b73993">AL::usdmaya::fileio::NodeFactory::~NodeFactory</a></div><div class="ttdeci">~NodeFactory()</div><div class="ttdoc">dtor </div></div>
 <div class="ttc" id="structAL_1_1usdmaya_1_1fileio_1_1ImporterParams_html"><div class="ttname"><a href="structAL_1_1usdmaya_1_1fileio_1_1ImporterParams.html">AL::usdmaya::fileio::ImporterParams</a></div><div class="ttdoc">parameters for the importer </div><div class="ttdef"><b>Definition:</b> ImportParams.h:40</div></div>
+<div class="ttc" id="structAL_1_1usdmaya_1_1fileio_1_1NodeFactory_html_afa3454504cf325e55ff22e518e1b0afd"><div class="ttname"><a href="structAL_1_1usdmaya_1_1fileio_1_1NodeFactory.html#afa3454504cf325e55ff22e518e1b0afd">AL::usdmaya::fileio::NodeFactory::createNode</a></div><div class="ttdeci">MObject createNode(const UsdPrim &amp;from, const char *const nodeType, MObject parent, bool parentUnmerged=false)</div><div class="ttdoc">create a node </div></div>
 <div class="ttc" id="structAL_1_1usdmaya_1_1fileio_1_1NodeFactory_html"><div class="ttname"><a href="structAL_1_1usdmaya_1_1fileio_1_1NodeFactory.html">AL::usdmaya::fileio::NodeFactory</a></div><div class="ttdoc">A simple node factory to convert nodes between Maya and USD. </div><div class="ttdef"><b>Definition:</b> NodeFactory.h:34</div></div>
-<div class="ttc" id="structAL_1_1usdmaya_1_1fileio_1_1NodeFactory_html_a92c9198a197bfc18f80cb96aac7c22c1"><div class="ttname"><a href="structAL_1_1usdmaya_1_1fileio_1_1NodeFactory.html#a92c9198a197bfc18f80cb96aac7c22c1">AL::usdmaya::fileio::NodeFactory::createNode</a></div><div class="ttdeci">MObject createNode(const UsdPrim &amp;from, const char *const nodeType, MObject parent)</div><div class="ttdoc">create a node </div></div>
 <div class="ttc" id="structAL_1_1usdmaya_1_1fileio_1_1NodeFactory_html_aa4aa1dd2c82cb10e3deec768e8b5c3db"><div class="ttname"><a href="structAL_1_1usdmaya_1_1fileio_1_1NodeFactory.html#aa4aa1dd2c82cb10e3deec768e8b5c3db">AL::usdmaya::fileio::NodeFactory::setImportParams</a></div><div class="ttdeci">void setImportParams(const ImporterParams *params)</div><div class="ttdoc">Some of the translators rely on import settings specified in the import params. Prior to use of this ...</div><div class="ttdef"><b>Definition:</b> NodeFactory.h:51</div></div>
 <div class="ttc" id="structAL_1_1usdmaya_1_1fileio_1_1NodeFactory_html_a07e4469094e108ae04df26e01fa67468"><div class="ttname"><a href="structAL_1_1usdmaya_1_1fileio_1_1NodeFactory.html#a07e4469094e108ae04df26e01fa67468">AL::usdmaya::fileio::NodeFactory::NodeFactory</a></div><div class="ttdeci">NodeFactory()</div><div class="ttdoc">ctor. Currently initialises the inbuilt translators. </div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -178,7 +178,7 @@ $(document).ready(function(){initNavTree('NodeFactory_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_c85d3e3c5052e9ad9ce18c6863244a25.html">lib</a></li><li class="navelem"><a class="el" href="dir_1bb7ef9dbabe305f6710c4d5a2d124d7.html">AL_USDMaya</a></li><li class="navelem"><a class="el" href="dir_1718e17ee0fed015a6dbff620e7e9f68.html">AL</a></li><li class="navelem"><a class="el" href="dir_bfd18ef9f7ca57c4b661440a6abf5ddf.html">usdmaya</a></li><li class="navelem"><a class="el" href="dir_ec9d30a9ccd844418f16eca8313b1ffe.html">fileio</a></li><li class="navelem"><b>NodeFactory.h</b></li>
-    <li class="footer">Generated on Thu Mar 29 2018 17:52:51 for AL_USDMaya by
+    <li class="footer">Generated on Wed Apr 4 2018 11:43:50 for AL_USDMaya by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
   </ul>

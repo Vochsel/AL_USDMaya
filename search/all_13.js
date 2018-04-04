@@ -41,7 +41,7 @@ var searchData=
   ['translatorcontext',['TranslatorContext',['../structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorContext.html',1,'AL::usdmaya::fileio::translators']]],
   ['translatorfactory',['TranslatorFactory',['../classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorFactory.html',1,'AL::usdmaya::fileio::translators']]],
   ['translatorfactorybase',['TranslatorFactoryBase',['../classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorFactoryBase.html',1,'AL::usdmaya::fileio::translators']]],
-  ['translatormanufacture',['translatorManufacture',['../classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#ac4a9884967c7f35627c414f1b48f2a46',1,'AL::usdmaya::nodes::ProxyShape::translatorManufacture()'],['../classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorManufacture.html#ab207fe30cc3d8b199bb1836837d39be6',1,'AL::usdmaya::fileio::translators::TranslatorManufacture::TranslatorManufacture()']]],
+  ['translatormanufacture',['TranslatorManufacture',['../classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorManufacture.html#ab207fe30cc3d8b199bb1836837d39be6',1,'AL::usdmaya::fileio::translators::TranslatorManufacture::TranslatorManufacture()'],['../classAL_1_1usdmaya_1_1nodes_1_1ProxyShape.html#ac4a9884967c7f35627c414f1b48f2a46',1,'AL::usdmaya::nodes::ProxyShape::translatorManufacture()']]],
   ['translatormanufacture',['TranslatorManufacture',['../classAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorManufacture.html',1,'AL::usdmaya::fileio::translators']]],
   ['translatorparameters',['TranslatorParameters',['../structAL_1_1usdmaya_1_1fileio_1_1translators_1_1TranslatorParameters.html',1,'AL::usdmaya::fileio::translators']]],
   ['translator_20api',['Translator API',['../group__translators.html',1,'']]],
