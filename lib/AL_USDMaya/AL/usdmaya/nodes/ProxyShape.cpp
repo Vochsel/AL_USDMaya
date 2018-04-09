@@ -1056,16 +1056,14 @@ void ProxyShape::onObjectsChanged(UsdNotice::ObjectsChanged const& notice, UsdSt
     }
   };
 
-  const SdfPathVector& resyncedPaths = notice.GetResyncedPaths();
-  for(const SdfPath& path : resyncedPaths)
+  for(const SdfPath& path : notice.GetResyncedPaths())
   {
     UsdPrim newPrim = m_stage->GetPrimAtPath(path);
     recordSelectablePrims(newPrim);
     recordPrimsLockStatus(newPrim);
   }
 
-  const SdfPathVector& changedInfoOnlyPaths = notice.GetChangedInfoOnlyPaths();
-  for(const SdfPath& path : changedInfoOnlyPaths)
+  for(const SdfPath& path : notice.GetChangedInfoOnlyPaths())
   {
     UsdPrim changedPrim;
     if(path.IsPropertyPath())
